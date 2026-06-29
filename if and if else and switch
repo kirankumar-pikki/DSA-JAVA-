@@ -77,6 +77,113 @@ public class Switch {
 
 
 
+weekday
+package dsa;
+import java.util.*;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter day");
+		String i=sc.next();
+		
+		
+		switch (i) {
+		case  "sunday":
+		case "saturday":
+			System.out.println("its weenend");
+			break;
+		default:
+			System.out.println("its weekday");
+			break;
+		}
+
+	}
+
+	}
+
+
+
+ifelse 
+package dsa;
+import java.util.*;
+
+public class Switch {
+
+	public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+	System.out.println("enter a number");
+	int a=sc.nextInt();
+	if(a%2==0) {
+		System.out.println("it is a even number");
+	}
+	else
+	{
+		System.out.println("it is add number");
+	}
+	
+	}
+	
+}
+
+if else
+
+
+package dsa;
+import java.util.*;
+
+public class Switch {
+
+	public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+	System.out.println("enter a number");
+	int a=sc.nextInt();
+	System.out.println("enter 2nd number");
+	int b=sc.nextInt();
+	System.out.println("enter a operator");
+	char op=sc.next().charAt(0);
+	if(op=='+') {
+		System.out.println(a+b);
+	}
+	else if(op=='-') {
+		System.out.println(a-b);
+	}
+	else if(op=='*') {
+		System.out.println(a*b);
+	}
+	else if(op=='/') {
+		System.out.println(a/b);
+	}
+	}
+}
+
+
+day
+
+package dsa;
+import java.util.*;
+
+public class Switch {
+
+	public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+	System.out.println("enter a day");
+	String day=sc.next();
+	if (day.equals("saturday")||day.equals("sunday")) {
+		System.out.println("it is weekend");
+	}
+	else {
+		System.out.println("it is week day");
+	}
+	}
+}
+
+
+
+
+
 
 
 
